@@ -13,7 +13,7 @@ import "react-resizable/css/styles.css";
 import Loading from "@/components/Loading";
 import LAYOUTS from "./layouts";
 import { IconGripVertical } from "@tabler/icons-react";
-import { Button, ButtonGroup, Divider } from "@nextui-org/react";
+import { Button, ButtonGroup, Divider } from "@heroui/react";
 import TruckWaitTimeRate from "./TruckWaitTimeRate";
 
 const ResponsiveGridLayout = WidthProvider(Responsive);

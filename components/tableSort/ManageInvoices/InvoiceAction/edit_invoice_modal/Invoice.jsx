@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { fetchDocById } from "@/api/firebase/functions/fetch";
 import InvoicesDetails from "./InvoicesDetails";
 import { Center, Loader } from "@mantine/core";
-import { Button } from "@nextui-org/react";
+import { Button } from "@heroui/react";
 import FixPrice from "./FixPrice";
 
 export default function Invoice({ id, onClose }) {

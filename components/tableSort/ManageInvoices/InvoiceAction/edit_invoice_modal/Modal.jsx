@@ -10,7 +10,7 @@ import {
   ModalHeader,
   ModalBody,
   useDisclosure,
-} from "@nextui-org/react";
+} from "@heroui/react";
 import { ActionIcon, ScrollArea, Tooltip } from "@mantine/core";
 
 export default function App({ id }) {

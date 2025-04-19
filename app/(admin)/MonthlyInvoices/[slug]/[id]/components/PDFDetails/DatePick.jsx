@@ -1,6 +1,6 @@
 "use client";
 
-import { RangeCalendar } from "@nextui-org/react";
+import { RangeCalendar } from "@heroui/react";
 import { today, getLocalTimeZone } from "@internationalized/date";
 import { useEffect, useState } from "react";
 

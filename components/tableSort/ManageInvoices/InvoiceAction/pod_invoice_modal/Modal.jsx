@@ -8,7 +8,7 @@ import {
   ModalHeader,
   ModalBody,
   useDisclosure,
-} from "@nextui-org/react";
+} from "@heroui/react";
 import { ActionIcon, Tooltip } from "@mantine/core";
 import useAdminContext from "@/context/AdminProvider";
 

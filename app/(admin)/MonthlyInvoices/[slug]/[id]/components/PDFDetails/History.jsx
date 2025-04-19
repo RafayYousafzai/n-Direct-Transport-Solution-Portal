@@ -10,7 +10,7 @@ import {
   Button,
   ButtonGroup,
   Chip,
-} from "@nextui-org/react";
+} from "@heroui/react";
 import emailjs from "emailjs-com";
 import toast from "react-hot-toast";
 import formatToSydneyTime from "@/lib/utils/formatToSydneyTime";

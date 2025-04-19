@@ -6,7 +6,7 @@ import {
 } from "@/api/firebase/functions/fetch";
 import { useEffect, useState } from "react";
 import { Container } from "@mantine/core";
-import { User } from "@nextui-org/react";
+import { User } from "@heroui/react";
 import ManageInvoices from "@/components/tableSort/ManageInvoices/ManageInvoices";
 
 const img =

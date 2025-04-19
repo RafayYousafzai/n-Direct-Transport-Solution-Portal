@@ -8,7 +8,7 @@ import ServicesFields from "@/components/fields/ServicesFields";
 
 import { formatDate, formatTime } from "@/api/DateAndTime/format";
 import { Divider } from "@mui/material";
-import { Button, ButtonGroup } from "@nextui-org/react";
+import { Button, ButtonGroup } from "@heroui/react";
 import { ResetIcon } from "@radix-ui/react-icons";
 
 export default function BasicDetailsSection({

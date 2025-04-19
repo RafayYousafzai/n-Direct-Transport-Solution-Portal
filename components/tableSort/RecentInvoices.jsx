@@ -22,7 +22,7 @@ import { PdfButton } from "@/components/Index";
 import TrackDriver from "./ManageInvoices/InvoiceAction/TrackDriver/TrackDriverModal";
 import { Badge } from "@/components/ui/badge";
 import { Eye } from "lucide-react";
-import { Pagination } from "@nextui-org/react";
+import { Pagination } from "@heroui/react";
 import {
   Select,
   SelectContent,

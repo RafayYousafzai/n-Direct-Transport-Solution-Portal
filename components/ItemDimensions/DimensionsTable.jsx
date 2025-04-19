@@ -7,7 +7,7 @@ import HighlightOffRoundedIcon from "@mui/icons-material/HighlightOffRounded";
 import { useEffect, useState } from "react";
 import CheckCircleTwoToneIcon from "@mui/icons-material/CheckCircleTwoTone";
 import { updateDoc } from "@/api/firebase/functions/upload";
-import { Button } from "@nextui-org/react";
+import { Button } from "@heroui/react";
 
 export default function DimensionsTable({
   items,

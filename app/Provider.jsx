@@ -3,7 +3,7 @@
 import { verifyAuthNotNav } from "@/api/firebase/functions/auth";
 
 import { MantineProvider } from "@mantine/core";
-import { NextUIProvider } from "@nextui-org/react";
+import { HeroUIProvider } from "@heroui/react";
 import NextTopLoader from "nextjs-toploader";
 import { PhotoProvider } from "react-photo-view";
 import { ToastContainer } from "react-toastify";
@@ -23,7 +23,7 @@ export default function Providers({ children }) {
   }, []);
 
   return (
-    <NextUIProvider>
+    <HeroUIProvider>
       <MantineProvider>
         <PhotoProvider>
           <FirebaseProvider>{children}</FirebaseProvider>
@@ -32,6 +32,6 @@ export default function Providers({ children }) {
         </PhotoProvider>
         <ToastContainer />
       </MantineProvider>
-    </NextUIProvider>
+    </HeroUIProvider>
   );
 }

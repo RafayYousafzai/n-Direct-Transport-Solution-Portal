@@ -9,7 +9,7 @@ import {
   Send,
   Sparkles,
 } from "lucide-react";
-import { User } from "@nextui-org/react";
+import { User } from "@heroui/react";
 import Image from "next/image";
 import { PhotoView } from "react-photo-view";
 import { Tooltip } from "@mantine/core";

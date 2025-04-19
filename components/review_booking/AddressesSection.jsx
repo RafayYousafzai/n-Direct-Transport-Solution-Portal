@@ -2,7 +2,7 @@ import "./form.css";
 
 import { useEffect, useState } from "react";
 import { Alert } from "@mantine/core";
-import { Chip, Switch } from "@nextui-org/react";
+import { Chip, Switch } from "@heroui/react";
 import { ErrorOutline } from "@mui/icons-material";
 import { PlacesAutocomplete } from "@/components/Index";
 

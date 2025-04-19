@@ -5,7 +5,7 @@ import React, { useState, useEffect, useRef, useCallback } from "react";
 import { VariableSizeList as List } from "react-window";
 import AutoSizer from "react-virtualized-auto-sizer";
 import { Sparkles } from "lucide-react";
-import { User } from "@nextui-org/react";
+import { User } from "@heroui/react";
 import MessageRow from "./MessageRow";
 import ChatInput from "./ChatInput";
 

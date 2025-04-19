@@ -9,7 +9,7 @@ import {
   Button,
   useDisclosure,
   Switch,
-} from "@nextui-org/react";
+} from "@heroui/react";
 import PriceSettings from "@/components/PriceSettings";
 import { useState, useEffect } from "react";
 import { updateDoc } from "@/api/firebase/functions/upload";

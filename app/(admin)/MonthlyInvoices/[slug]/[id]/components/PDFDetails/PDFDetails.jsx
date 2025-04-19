@@ -2,7 +2,7 @@
 
 import useAdminContext from "@/context/AdminProvider";
 import { Container } from "@mantine/core";
-import { User } from "@nextui-org/react";
+import { User } from "@heroui/react";
 import React, { useState } from "react";
 import DatePick from "./DatePick";
 import History from "./History";

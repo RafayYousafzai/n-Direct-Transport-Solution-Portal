@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Stats } from "@/components/Index";
 import { ScrollArea } from "@mantine/core";
-import { ScrollShadow } from "@nextui-org/react";
+import { ScrollShadow } from "@heroui/react";
 import { AdminProvider } from "@/context/AdminProvider";
 import Script from "next/script";
 

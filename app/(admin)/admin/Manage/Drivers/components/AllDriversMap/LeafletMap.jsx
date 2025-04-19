@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
-import { Button } from "@nextui-org/react";
+import { Button } from "@heroui/react";
 
 export default function LeafletMap({ liveLocSharingBookings }) {
   const mapContainer = useRef(null);

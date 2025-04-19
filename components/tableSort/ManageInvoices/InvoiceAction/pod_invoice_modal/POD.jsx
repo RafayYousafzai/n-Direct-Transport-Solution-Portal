@@ -8,7 +8,7 @@ import {
 } from "@/api/firebase/functions/upload";
 import { Box, LoadingOverlay } from "@mantine/core";
 import { PhotoView } from "react-photo-view";
-import { Button, Image, Input } from "@nextui-org/react";
+import { Button, Image, Input } from "@heroui/react";
 
 export default function Page({ booking, close }) {
   const [name, setName] = useState(booking?.receiverName || "");

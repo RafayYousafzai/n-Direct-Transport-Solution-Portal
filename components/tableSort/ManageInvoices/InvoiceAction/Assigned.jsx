@@ -10,7 +10,7 @@ import {
   Tooltip,
 } from "@mantine/core";
 import { Search, Truck } from "lucide-react";
-import { Chip } from "@nextui-org/react";
+import { Chip } from "@heroui/react";
 import toast from "react-hot-toast";
 import { getFormattedDateStr, getFormattedTime } from "@/api/DateAndTime";
 import { updateDoc } from "@/api/firebase/functions/upload";

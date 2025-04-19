@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import DriverTable from "./components/Table";
 import Create from "./components/Create";
-import { Divider } from "@nextui-org/react";
+import { Divider } from "@heroui/react";
 import Link from "next/link";
 import TrackDriverModal from "./components/AllDriversMap/TrackDriverModal"
 

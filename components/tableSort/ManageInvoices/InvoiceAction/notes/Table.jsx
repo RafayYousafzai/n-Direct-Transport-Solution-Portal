@@ -1,5 +1,5 @@
 import { updateDoc } from "@/api/firebase/functions/upload";
-import { Button } from "@nextui-org/react";
+import { Button } from "@heroui/react";
 import { Trash } from "lucide-react";
 import React from "react";
 import toast from "react-hot-toast";

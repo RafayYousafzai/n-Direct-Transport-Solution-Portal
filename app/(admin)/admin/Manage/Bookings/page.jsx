@@ -1,6 +1,6 @@
 "use client";
 import ManageInvoices from "@/components/tableSort/ManageInvoices/ManageInvoices";
-import { Tabs, Tab, Card, CardBody } from "@nextui-org/react";
+import { Tabs, Tab, Card, CardBody } from "@heroui/react";
 import { useMemo } from "react";
 import { startOfDay, isFuture, parse } from "date-fns";
 import { isToday } from "date-fns";

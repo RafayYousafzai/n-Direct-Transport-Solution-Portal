@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import getSuburbByLatLng from "@/api/getSuburbByLatLng";
-import { Divider } from "@nextui-org/react";
+import { Divider } from "@heroui/react";
 import { useRouter } from "next/navigation";
 import toast from "react-hot-toast";
 import { postInvoice } from "@/api/firebase/functions/upload";

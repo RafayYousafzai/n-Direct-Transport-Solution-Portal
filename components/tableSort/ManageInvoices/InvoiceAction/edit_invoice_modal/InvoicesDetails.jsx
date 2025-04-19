@@ -16,7 +16,7 @@ import "tailwindcss/tailwind.css";
 import ItemDimensions from "@/components/ItemDimensions";
 import { formatDate, formatTime } from "@/api/DateAndTime/format";
 import DateTime from "@/components/fields/DateTime";
-import { Button, Chip, Image } from "@nextui-org/react";
+import { Button, Chip, Image } from "@heroui/react";
 import { updateDoc } from "@/api/firebase/functions/upload";
 import PdfButton from "@/components/PdfButton";
 import { PaidTwoTone } from "@mui/icons-material";

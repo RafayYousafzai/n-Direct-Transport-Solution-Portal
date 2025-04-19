@@ -18,7 +18,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { format } from "date-fns";
-import { Image } from "@nextui-org/react";
+import { Image } from "@heroui/react";
 import { Input } from "@/components/ui/input";
 import toast from "react-hot-toast";
 import { updateDoc } from "@/api/firebase/functions/upload";

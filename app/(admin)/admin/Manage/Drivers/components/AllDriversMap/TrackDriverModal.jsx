@@ -8,7 +8,7 @@ import {
   ModalFooter,
   Button,
   useDisclosure,
-} from "@nextui-org/react";
+} from "@heroui/react";
 import TrackDriverContent from "./TrackDriverContent";
 
 export default function TrackDriver({ email }) {

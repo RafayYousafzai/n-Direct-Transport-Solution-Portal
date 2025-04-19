@@ -3,7 +3,7 @@
 import PriceSettings from "@/components/PriceSettings";
 import { useEffect, useState } from "react";
 import { updateDoc } from "@/api/firebase/functions/upload";
-import { Button, Spinner } from "@nextui-org/react";
+import { Button, Spinner } from "@heroui/react";
 import toast from "react-hot-toast";
 import useAdminContext from "@/context/AdminProvider";
 

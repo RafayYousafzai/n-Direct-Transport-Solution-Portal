@@ -3,7 +3,7 @@
 
 import { useState, useEffect } from "react";
 import { CalendarDate } from "@internationalized/date";
-import { Calendar, TimeInput } from "@nextui-org/react";
+import { Calendar, TimeInput } from "@heroui/react";
 import {
   Time,
   getLocalTimeZone,

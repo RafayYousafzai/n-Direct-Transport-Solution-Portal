@@ -3,7 +3,7 @@ import ItemDimensions from "@/components/ItemDimensions/index";
 import React, { useEffect, useState } from "react";
 import { Container, Text, Center } from "@mantine/core";
 import { PhotoView } from "react-photo-view";
-import { Image } from "@nextui-org/react";
+import { Image } from "@heroui/react";
 import JourneyDetails from "@/components/common/JourneyDetails";
 
 const renderSection = (title, details) => (

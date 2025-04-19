@@ -7,7 +7,7 @@ import EditInvoice from "./InvoiceAction/edit_invoice_modal/Modal";
 import TrackDriver from "./InvoiceAction/TrackDriver/TrackDriverModal";
 import Assigned from "./InvoiceAction/Assigned";
 import InvoicePOD from "./InvoiceAction/pod_invoice_modal/Modal";
-import { Chip } from "@nextui-org/react";
+import { Chip } from "@heroui/react";
 import Notes from "./InvoiceAction/notes/Notes";
 import formatToSydneyTime from "@/lib/utils/formatToSydneyTime";
 import FixPriceModal from "./InvoiceAction/edit_invoice_modal/FixPriceModal";

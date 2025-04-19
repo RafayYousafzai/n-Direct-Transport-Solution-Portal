@@ -10,7 +10,7 @@ import {
   DropdownItem,
   DropdownMenu,
   DropdownTrigger,
-} from "@nextui-org/react";
+} from "@heroui/react";
 import { IconClock12 } from "@tabler/icons-react";
 import React, { useEffect, useState } from "react";
 import ProcessPrice from "./calc_price_by_job_and_service/index";

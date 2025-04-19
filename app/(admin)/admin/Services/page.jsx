@@ -3,7 +3,7 @@
 import PriceSettings from "@/components/PriceSettings";
 import { useEffect, useState } from "react";
 import { updateDoc } from "@/api/firebase/functions/upload";
-import { Button } from "@nextui-org/react";
+import { Button } from "@heroui/react";
 import { fetchDocById } from "@/api/firebase/functions/fetch";
 
 export default function CustomPrice() {

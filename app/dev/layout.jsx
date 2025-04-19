@@ -8,7 +8,7 @@ import {
   CardBody,
   CardFooter,
   CardHeader,
-} from "@nextui-org/react";
+} from "@heroui/react";
 
 function PasswordProtection({ onAuthenticate }) {
   const [password, setPassword] = useState("");

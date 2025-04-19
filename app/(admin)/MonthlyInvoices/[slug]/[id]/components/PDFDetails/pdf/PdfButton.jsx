@@ -6,7 +6,7 @@ import dynamic from "next/dynamic";
 import { pdf } from "@react-pdf/renderer";
 import { getStorage, ref, uploadBytes, getDownloadURL } from "firebase/storage";
 import { app } from "@/api/firebase/config";
-import { Button, Spinner } from "@nextui-org/react";
+import { Button, Spinner } from "@heroui/react";
 import { postDoc } from "@/api/firebase/functions/upload";
 import LayoutSelector from "./PdfLayout";
 import toast from "react-hot-toast";

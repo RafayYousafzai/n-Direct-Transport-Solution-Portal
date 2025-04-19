@@ -3,7 +3,7 @@
 import { useState, useCallback } from "react";
 import { useLoadScript, Autocomplete } from "@react-google-maps/api";
 import { Input } from "@/components/ui/input";
-import { Checkbox } from "@nextui-org/react";
+import { Checkbox } from "@heroui/react";
 
 const libraries = ["places"];
 

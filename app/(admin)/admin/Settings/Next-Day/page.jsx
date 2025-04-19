@@ -1,6 +1,6 @@
 "use client";
 
-import { Tabs, Tab, Card, CardBody } from "@nextui-org/react";
+import { Tabs, Tab, Card, CardBody } from "@heroui/react";
 import NextDay from "./components/next_day";
 import ThreeFourDay from "./components/three_four_day";
 

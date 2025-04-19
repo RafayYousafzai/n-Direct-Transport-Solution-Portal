@@ -9,7 +9,7 @@ import {
 } from "@/components/ui/dialog";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@nextui-org/react";
+import { Button } from "@heroui/react";
 import { deleteDocument } from "@/api/firebase/functions/upload";
 
 export default function BookingModal({ booking, onClose }) {
