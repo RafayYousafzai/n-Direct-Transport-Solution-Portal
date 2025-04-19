@@ -58,7 +58,8 @@ export default function StatusDropdown({ booking }) {
       value={status.val}
       key={index}
       onClick={() => updateStatus(index, status.val)}
-    >
+      style={{ textTransform: "uppercase", fontSize: "10px" }}
+      >
       {status.status}
     </Combobox.Option>
   ));
@@ -73,8 +74,7 @@ export default function StatusDropdown({ booking }) {
     >
       <Combobox.Target>
         <Button
-          size="compact-md"
-          mt={-16}
+          size="compact-sm"
           w={90}
           h={50}
           loading={loading}
