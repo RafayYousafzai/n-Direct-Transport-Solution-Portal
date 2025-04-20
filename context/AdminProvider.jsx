@@ -28,7 +28,7 @@ const AdminProvider = ({ children }) => {
   const [chats, setChats] = useState(null);
 
   const [totalBookings, setTotalBookings] = useState(0);
-  const BOOKINGS_LIMIT = 0;
+  const BOOKINGS_LIMIT = 4000;
 
   const fetchDocumentCounts = async () => {
     try {
