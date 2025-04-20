@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/AutoRefresh.jsx", "app/actions/transferAndReupload.js", "components/select-address/SelectMultipleAddresses.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "components/AutoRefresh.jsx", "app/actions/transferAndReupload.js", "components/select-address/SelectMultipleAddresses.jsx", "app/beta/admin/manage-bookings/components/bookings-table.jsx", "app/beta/admin/manage-bookings/hooks/use-bookings.js"],
   "exclude": ["node_modules"]
 }

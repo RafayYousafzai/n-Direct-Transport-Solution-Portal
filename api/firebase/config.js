@@ -2,6 +2,7 @@
 import { initializeApp } from "firebase/app";
 import { getAuth, signInWithCustomToken } from "firebase/auth";
 import { getDatabase } from "firebase/database";
+import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
   apiKey: "AIzaSyAXYJck4kQxh4hop3BblpVhrgYDKcXSsIc",
@@ -54,5 +55,6 @@ async function authenticate(apiKey) {
 const appOFL = initializeApp(firebaseConfigOFL, "locationTrackingApp");
 
 const realtimeDbOFL = getDatabase(appOFL);
+const db = getFirestore(app);
 
-export { app, realtimeDb, realtimeDbOFL };
+export { app, db, realtimeDb, realtimeDbOFL };

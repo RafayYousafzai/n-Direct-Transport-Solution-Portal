@@ -1,60 +1,53 @@
 "use client";
-import { app } from "@/api/firebase/config";
-import { getFirestore } from "firebase/firestore";
 import { BookingsTable } from "./components/bookings-table";
-import { BookingsPagination } from "./components/bookings-pagination";
-import { BookingsHeader } from "./components/bookings-header";
-import { useBookings } from "./hooks/use-bookings";
+import { Tabs, Tab, Select } from "@heroui/react";
+import React, { useState } from "react";
 
-const db = getFirestore(app);
+export default function BookingsPage() {
+  // const { bookings, error, totalBookings } = useBookings();
 
-export default function BookingsPage({
-  isArchived = false,
-  hideAction = false,
-}) {
-  const {
-    bookings,
-    loading,
-    loadingMore,
-    error,
-    totalBookings,
-    page,
-    hasMore,
-    handleNextPage,
-    handlePrevPage,
-  } = useBookings(db);
+  const [selected, setSelected] = useState("active");
+  const [selectedDriver, setSelectedDriver] = useState("");
 
   return (
-    <div className="container mx-auto px-4 py-6">
-      <BookingsHeader totalBookings={totalBookings} />
+    <div className="flex-1">
+      {/* <BookingsHeader totalBookings={totalBookings} /> */}
 
-      {error && (
-        <div className="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded-lg mb-4">
-          {error}
-        </div>
-      )}
-
-      <div className="bg-white  rounded-lg border shadow-sm overflow-hidden">
-        <BookingsTable
-          bookings={bookings}
-          loading={loading}
-          loadingMore={loadingMore}
-          isArchived={isArchived}
-          hideAction={hideAction}
-        />
+      <div className="flex w-full flex-col p-4 gap-4">
+        <Tabs
+          fullWidth
+          aria-label="Booking tabs"
+          selectedKey={selected}
+          onSelectionChange={setSelected}
+          className="w-full"
+        >
+          <Tab key="active" title="Active">
+            <div className="flex flex-col gap-4">
+              <div className="flex justify-end">
+                <Select
+                  label="Select Driver"
+                  placeholder="Filter by driver"
+                  className="w-64"
+                  selectedKeys={selectedDriver ? [selectedDriver] : []}
+                  onSelectionChange={(keys) =>
+                    setSelectedDriver(Array.from(keys))
+                  }
+                >
+                  {/* {drivers.map((driver) => (
+                    <SelectItem key={driver} value={driver}>
+                      {driver}
+                    </SelectItem>
+                  ))} */}
+                </Select>
+              </div>
+            </div>
+          </Tab>
+          <Tab key="allocated" title="Allocated"></Tab>
+          <Tab key="completed" title="Completed">
+            <BookingsTable />
+          </Tab>
+        </Tabs>
       </div>
-
-      <BookingsPagination
-        page={page}
-        hasMore={hasMore}
-        loading={loading}
-        loadingMore={loadingMore}
-        totalBookings={totalBookings}
-        itemsPerPage={10}
-        bookingsCount={bookings.length}
-        onNextPage={handleNextPage}
-        onPrevPage={handlePrevPage}
-      />
     </div>
   );
 }
